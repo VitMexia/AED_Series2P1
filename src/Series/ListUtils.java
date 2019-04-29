@@ -178,7 +178,7 @@ public class ListUtils {
 
 
                                temp.previous = aux;
-                               //temp.previous.next = temp;
+
                                aux.next = temp;
                                temp.next = listToReturn;
 
